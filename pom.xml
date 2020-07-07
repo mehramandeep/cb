@@ -3,12 +3,15 @@
   <groupId>com.companyname.bank</groupId>
   <artifactId>consumerBanking</artifactId>
   <packaging>jar</packaging>
-  <version>1.10-SNAPSHOT</version>
+  <version>${release.version}</version>
   <name>consumerBanking</name>
   <url>http://maven.apache.org</url>
 
 <properties>
+   <release.version>1.11-SNAPSHOT</release.version>
    <project.scm.id>github</project.scm.id>
+   <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
 </properties>
 <scm>
    <connection>scm:git:https://github.com/mandeepmehra/cb.git</connection>
